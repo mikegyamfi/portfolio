@@ -302,7 +302,7 @@ img{
     }
 
     .hero__scroll{
-        /* display: none; */
+        display: none;
     }
 
     .hero__scroll-button{
