@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyamfi Michael</title>
+
+    <!---------------- Font Awesome ---------------------->
+    <script src="https://kit.fontawesome.com/74a104b829.js" crossorigin="anonymous"></script>
+
+    <!----------------------- Unicons --------------------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!------------------ Swiper CSS ----------------------->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!------------------- Custom CSS -------------------->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!------------------- Header ------------------------->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div>
+          <a href="#" class="nav__logo">Mi'cha-el</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="fa-solid fa-house nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="fa-solid fa-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="fa-solid fa-star nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="fa-solid fa-briefcase nav__icon"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="fa-solid fa-folder nav__icon"></i> Porfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contactme" class="nav__link">
+                <i class="fa-solid fa-phone nav__icon"></i> Reach me
+              </a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+            <!-- Theme Change -->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!---------------------------------------------------->
+    <main class="main">
+      <!--------------------------- HERO SECTION ------------------------------>
+      <section class="hero section" id="hero">
+        <div class="hero__container container grid">
+          <div class="hero__content grid">
+            <div class="hero__social">
+              <a href="#" class="hero__social-icon" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="#" class="hero__social-icon" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="#" class="hero__social-icon" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+
+            <div class="hero__image">
+                <lottie-player class="hero__blob-img" src="https://assets2.lottiefiles.com/packages/lf20_wnceyokk.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
+            </div>
+
+            <div class="hero__data">
+              <h1 class="hero__title">Hi I'm Michael</h1>
+              <h3 class="hero__subtitle">A Fullstack Web Developer</h3>
+              <p class="hero__description">
+                Developing dreams and more for businesses arounf the globe.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="fa-solid fa-paper-plane button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__scroll">
+            <a href="#about" class="hero__scroll-button button--flex">
+                <i class="uil uil-mouse-alt hero__scroll-mouse"></i>
+                <span class="hero__scroll-name">Scroll down</span>
+                <i class="uil uil-angle-down hero__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--------------------------- ABOUT ------------------------------>
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">Let's talk about me</span>
+
+        <div class="about__container container grid">
+            <lottie-player class="about__img" src="https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
+          <div class="about__data">
+            <p class="about__description">
+              I am a fullstack web developer, a mobile app developer and a web designer. I build sites ranging from simple static sites to complex ones you can think of.
+            </p>
+            <div class="about__info">
+                <div>
+                    <span class="about__info-title">05+</span>
+                    <span class="about__info-name">Years <br> experience</span>
+                </div>
+
+                <div>
+                    <span class="about__info-title">10+</span>
+                    <span class="about__info-name">Completed <br> Projects</span>
+                </div>
+
+                <div>
+                    <span class="about__info-title">20+</span>
+                    <span class="about__info-name">Happy <br> Clients</span>
+                </div>
+            </div>
+
+            <div class="about__buttons">
+                <a target="_blank" download="" href="../CV - Gyamfi Michael.pdf" class="button button-flex">
+                    Download Resume <i class="fa-solid fa-download button__icon"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--------------------------- SKILLS ------------------------------>
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">What I do</span>
+
+        <div class="skills__container container grid">
+            <div>
+                <!--================== Skill 1 ========================-->
+                <div class="skill__content skill__open">
+                    <div class="skill__header">
+                        <i class="fa-solid fa-code skill__icon"></i>
+
+                        <div>
+                            <h1 class="skill__title">Frontend Development</h1>
+                            <span class="skill_subtitle">3years+ Experience</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-down skill__arrow"></i>
+                    </div>
+
+                        <div class="skill_list grid">
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">HTML</h2>
+                                    <span class="skill__level">95%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage html__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">CSS</h2>
+                                    <span class="skill__level">90%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage css__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">Javascript</h2>
+                                    <span class="skill__level">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage js__percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+                <!--================== Skill 2 ========================-->
+                <div>
+                <div class="skill__content skill__close">
+                    <div class="skill__header">
+                        <i class="fa-solid fa-server skill__icon"></i>
+
+                        <div>
+                            <h1 class="skill__title">Backend Development</h1>
+                            <span class="skill_subtitle">3years+ Experience</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-down skill__arrow"></i>
+                    </div>
+
+                        <div class="skill_list grid">
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">Django</h2>
+                                    <span class="skill__level">90%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage django__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">Flask</h2>
+                                    <span class="skill__level">80%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage flask__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <div class="specific_skill_title">
+                                    <h2 class="skill__name">Python</h2>
+                                    <span class="skill__level">95%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <span class="skill__percentage python__percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--================== Skill 3 ========================-->
+                <div>
+                <div class="skill__content skill__close">
+                    <div class="skill__header">
+                        <i class="fa-solid fa-code skill__icon"></i>
+
+                        <div>
+                            <h1 class="skill__title">Mobile App Development</h1>
+                            <span class="skill_subtitle">3years+ Experience</span>
+                        </div>
+
+                        <i class="fa-solid fa-chevron-down skill__arrow"></i>
+                    </div>
+
+                    <div class="skill_list grid">
+                        <div class="skill__data">
+                            <div class="specific_skill_title">
+                                <h2 class="skill__name">Flutter</h2>
+                                <span class="skill__level">90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <span class="skill__percentage flutter__percentage"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="specific_skill_title">
+                                <h2 class="skill__name">Firebase</h2>
+                                <span class="skill__level">80%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <span class="skill__percentage firebase__percentage"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="specific_skill_title">
+                                <h2 class="skill__name">Dart</h2>
+                                <span class="skill__level">90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <span class="skill__percentage dart__percentage"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div> 
+            </div>
+        </div>
+      </section>
+
+      <!------------------------ QUALIFICATION -------------------------->
+      <section class="qualification section">
+        <h2 class="section__title">Qualifications</h2>
+        <span class="section__subtitle">The journey so far</span>
+
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button qualification__active button--flex" data-target="#education">
+                    <i class="fa-solid fa-graduation-cap qualification__icon"></i>
+                    Education
+                </div>
+
+                <div class="qualification__button button--flex" data-target="#work">
+                    <i class="fa-solid fa-briefcase qualification__icon"></i>
+                    Work
+                </div>
+            </div>
+
+            <div class="qualification__sections">
+                <!------------------------ QUALIFICATION Content 1 -------------------------->
+                <div class="qualification__content qualification__active" data-content id="education">
+                    <!------------------------ QUALIFICATION 1 -------------------------->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">General Science</h3>
+                            <span class="qualification__subtitle">Aquinas - Ghana</span>
+                            <div class="qualification__calender">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2017 - 2020
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!------------------------ QUALIFICATION 2 -------------------------->
+                    <div class="qualification__data">
+
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Computer Engineering</h3>
+                            <span class="qualification__subtitle">GCTU - Ghana</span>
+                            <div class="qualification__calender">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2020 - Present
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!------------------------ QUALIFICATION Content 2 -------------------------->
+                <div class="qualification__content" data-content id="work">
+                    <!------------------------ QUALIFICATION 1 -------------------------->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Web Designing</h3>
+                            <span class="qualification__subtitle">Freelance</span>
+                            <div class="qualification__calender">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2019 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                    </div>
+
+                    <!------------------------ QUALIFICATION 2 -------------------------->
+                    <div class="qualification__data">
+
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Frontend Web Developer</h3>
+                            <span class="qualification__subtitle">Freelance</span>
+                            <div class="qualification__calender">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2019 - Present
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------ QUALIFICATION 3 -------------------------->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Backend Web Developer</h3>
+                            <span class="qualification__subtitle">Freelance</span>
+                            <div class="qualification__calender">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2020 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!------------------------- SERVICES ------------------------------>
+      <section class="services section" id="section">
+        <h2 class="section__title">My Services</h2>
+        <span class="section__subtitle">What I have to offer</span>
+
+        <div class="services__container container grid">
+            <!-- ----------------Service 1 -------------------------->
+            <div class="service__content">
+                <div>
+                    <i class="fa-solid fa-pen-nib service__icon"></i>
+                    <h3 class="service__title">UI Designing</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link service__button">
+                    View More
+                    <i class="fa-solid fa-arrow-right service__icon"></i>
+                </span>
+
+                <div class="service__modal">
+                    <div class="service__modal-content">
+                        <h4 class="service__modal-title">UI Designing</h4>
+                        <i class="fa-solid fa-xmark service__modal-close"></i>
+
+                        <ul class="service__modal-services grid">
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I develop user interfaces or let's say I design user interfaces</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I design UI for websites, web apps and mobile apps</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I make sure your brand is like none you have seen.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------Service 2 -------------------------->
+            <div class="service__content">
+                <div>
+                    <i class="fa-solid fa-code service__icon"></i>
+                    <h3 class="service__title">Fullstack Web Development</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link service__button">
+                    View More
+                    <i class="fa-solid fa-arrow-right service__icon"></i>
+                </span>
+
+                <div class="service__modal">
+                    <div class="service__modal-content">
+                        <h4 class="service__modal-title">Fullstack Web Development</h4>
+                        <i class="fa-solid fa-xmark service__modal-close"></i>
+
+                        <ul class="service__modal-services grid">
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I develop frontend sites, landing pages and static sites like simple portfolio sites</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I also develop web apps like blogs, ecommerce, POS softwares and backend sites you might want to put out there</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>Not forgetting POS softwares and APIs. I also develop API driven apps.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------Service 3 -------------------------->
+            <div class="service__content">
+                <div>
+                    <i class="fa-solid fa-mobile service__icon"></i>
+                    <h3 class="service__title">Mobile App Development</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link service__button">
+                    View More
+                    <i class="fa-solid fa-arrow-right service__icon"></i>
+                </span>
+
+                <div class="service__modal">
+                    <div class="service__modal-content">
+                        <h4 class="service__modal-title">Mobile App Development</h4>
+                        <i class="fa-solid fa-xmark service__modal-close"></i>
+
+                        <ul class="service__modal-services grid">
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I develop Android and iOS apps</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>I design apps for individuals and businesses.</p>
+                            </li>
+
+                            <li class="service__modal-service">
+                                <i class="fa-regular fa-circle-check service__modal-icon"></i>
+                                <p>Using latest and best technologies to bring you the best possible apps.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--------------------------- PORTFOLIO --------------------------->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My works so far</span>
+
+        <div class="portfolio__container container swiper">
+            <div class="swiper-wrapper">
+                <!--------------------------- Work 1 --------------------------->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="../images/bp.png" alt="" class="portfolio__image">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">BestPay GH</h3>
+                        <p class="portfolio__description">BestPay GH is a platform that provides affordable internet bundles and makes payment of utilities much easier and faster.</p>
+                        <a target="_blank" href="https://www.bestpaygh.com" class="button button--flex button--small portfolio__button">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--------------------------- Work 2 --------------------------->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="../images/ddP.png" alt="" class="portfolio__image">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">de Dream POS</h3>
+                        <p class="portfolio__description">de Dream POS is a POS software that brings relief to shop owners. A platform for shops that wish to manage stock effectively and make selling much more easier</p>
+                        <a target="_blank" href="https://pos.dedreamteam.com" class="button button--flex button--small portfolio__button">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--------------------------- Work 3 --------------------------->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="../images/coll.png" alt="" class="portfolio__image">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Collaboration Site UI</h3>
+                        <p class="portfolio__description">This UI was designed for a collaboration platform that was later develped into a site.</p>
+                        <a target="_blank" href="https://www.figma.com/proto/0cdr1Kqf3UswdeQ0xAID7p/Client-Project?page-id=1222%3A0&node-id=1222-178&mode=design" class="button button--flex button--small portfolio__button">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next">
+                <i class="fa-solid fa-angle-right portfolio-swiper-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fa-solid fa-angle-left portfolio-swiper-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!------------- Contact Me For any Project in mind ----------------->
+      <section class="project section">
+        <div class="project__bg">
+            <div class="project__container container grid">
+                <div class="project__data">
+                    <h2 class="project__title">
+                        Do you have a project in mind?
+                    </h2>
+                    <p class="project__description">
+                        Contact me now and get one of tehbest deals you'll ever come across.
+                    </p>
+                    <a href="#contact" class="button button--flex button--white">
+                        Contact me
+                        <i class="fa-solid fa-paper-plane project__icon button__icon"></i>
+                    </a>
+                </div>
+
+                <lottie-player class="project__img" src="https://assets4.lottiefiles.com/packages/lf20_BJ9mFCqhen.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
+            </div>
+        </div>
+      </section>
+
+      <!------------------------- Testimonials ---------------------------->
+      <!-- <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">What My Clients Say</span>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    ----------- Testimonial 1 ----------------
+                     <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="../images/doc.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Narku Noi</h3>
+                                    <span class="testimonial__status">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Quisque diam enim, venenatis pellentesque interdum vitae, ullamcorper hendrerit nulla.</p>
+                        </div>
+                    </div> -->
+
+                    <!------------- Testimonial 2 ---------------->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="../images/doc.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">MSJ Advertising</h3>
+                                    <span class="testimonial__status">Partner</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Quisque diam enim, venenatis pellentesque interdum vitae, ullamcorper hendrerit nulla.</p>
+                        </div>
+                    </div> -->
+
+                    <!------------- Testimonial 3 ---------------->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="../images/favicon.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">ColGra Clothing</h3>
+                                    <span class="testimonial__status">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                                <i class="fa-solid fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Quisque diam enim, venenatis pellentesque interdum vitae, ullamcorper hendrerit nulla.</p>
+                        </div>
+                    </div> -->
+                <!-- </div>
+            <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>  -->
+
+      <!-- ----------------------- Contact Me --------------------------- -->
+      <section id="contact" class="section contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <!-- Mail -->
+                <div class="contact__info">
+                    <i class="fa-solid fa-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle"><a href="tel:+233242442147">+233 24 244 2147</a></span>
+                    </div>
+                </div>
+                <!-- Phone -->
+                <div class="contact__info">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Send a mail</h3>
+                        <span class="contact__subtitle"><a href="mailto:michaelgyamfi696@gmail.com">michaelgyamfi696@gmail.com</a></span>
+                    </div>
+                </div>
+                <!-- Whatsapp -->
+            </div>
+
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea cols="0" rows="10" type="text" class="contact__input"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="" class="button button--flex">Send Message</a>
+                    
+                </div>
+            </form>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Michael</h1>
+                    <span class="footer__subtitle">Fullstack Web Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact </a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" class="footer__social">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="" class="footer__social">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="" class="footer__social">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <p class="footer__copy">&#169; The Michaelson. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#hero" class="scrollup" id="scroll_up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script></script>
+  </body>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    // Scroll to specific values
+// scrollTo is the same
+window.scroll({
+  top: 2500, 
+  left: 0, 
+  behavior: 'smooth'
+});
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 100, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+</html>
